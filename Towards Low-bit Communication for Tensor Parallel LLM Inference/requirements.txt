@@ -1,0 +1,14 @@
+# Recommended Python: 3.11
+# Also works with Python 3.10+
+
+numpy>=1.26
+matplotlib>=3.8
+torch>=2.2
+jupyter>=1.0
+notebook>=7.0
+
+# Optional, only needed for the real Gemma section
+transformers>=4.44
+accelerate>=0.33
+sentencepiece>=0.2
+huggingface-hub>=0.24

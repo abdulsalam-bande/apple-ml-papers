@@ -1,6 +1,6 @@
 # Apple ML Papers
 
-Reviews and educational implementations of Apple Machine Learning research papers.
+Reviews, explanations, and PyTorch implementations of Apple Machine Learning research papers.
 
 This repository accompanies my YouTube series where I:
 
@@ -10,7 +10,7 @@ This repository accompanies my YouTube series where I:
 - Build minimal PyTorch implementations
 - Share insights, limitations, and future directions
 
-The goal is to make Apple's machine learning research more accessible to students, researchers, and engineers.
+The goal is to make Apple's machine learning research more accessible to students, researchers, and engineers through concise reviews, visual explanations, and reproducible PyTorch notebooks.
 
 ---
 
@@ -19,9 +19,8 @@ The goal is to make Apple's machine learning research more accessible to student
 apple-ml-papers/
 │
 ├── papers/
-│   ├── activation-transport/
-│   ├── selected-bf16/
-│   ├── paper-03/
+│   ├── towards-low-bit-communication-for-tensor-parallel-llm-inference/
+│   ├── depyf/
 │   └── ...
 │
 ├── assets/
@@ -38,19 +37,10 @@ Each paper folder contains:
 
 ---
 
-## Papers
-
-| # | Paper | Notebook | Video |
-|---|--------|----------|--------|
-| 1 | Activation Transport | ✅ | Coming Soon |
-| 2 | Selected-BF16 | Planned | Planned |
-
----
-
 ## Example Folder Structure
 
 papers/
-└── activation-transport/
+└── towards-low-bit-communication-for-tensor-parallel-llm-inference/
     ├── README.md
     ├── notebook.ipynb
     ├── requirements.txt
