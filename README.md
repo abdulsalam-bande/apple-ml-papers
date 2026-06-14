@@ -16,16 +16,15 @@ The goal is to make Apple's machine learning research more accessible to student
 
 ## Repository Structure
 
+```text
 apple-ml-papers/
-│
 ├── papers/
 │   ├── towards-low-bit-communication-for-tensor-parallel-llm-inference/
-│   ├── depyf/
+│   ├── activation-transport/
 │   └── ...
-│
 ├── assets/
-│
 └── README.md
+```
 
 Each paper folder contains:
 
@@ -37,14 +36,26 @@ Each paper folder contains:
 
 ---
 
+## Paper Index
+
+| Paper | Notebook | Video |
+|--------|----------|--------|
+| Towards Low-bit Communication for Tensor Parallel LLM Inference | ✅ | Coming Soon |
+| Activation Transport | Planned | Planned |
+
+---
+
 ## Example Folder Structure
 
+```text
 papers/
 └── towards-low-bit-communication-for-tensor-parallel-llm-inference/
     ├── README.md
     ├── notebook.ipynb
     ├── requirements.txt
+    ├── figure2.png
     └── assets/
+```
 
 ---
 
@@ -87,6 +98,12 @@ https://github.com/abdulsalam-bande
 
 Website:
 https://abdulsalam-bande.github.io/BandeLab/
+
+---
+
+## Disclaimer
+
+This repository contains educational reviews and implementations inspired by Apple Machine Learning research papers. It is an independent educational project and is not affiliated with, endorsed by, or officially maintained by Apple Inc. The code and explanations provided here are not official Apple implementations.
 
 ---
 
