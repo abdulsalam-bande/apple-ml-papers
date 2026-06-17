@@ -12,7 +12,7 @@ This folder contains educational notes and a PyTorch-based implementation inspir
 
 ## YouTube Video
 
-Video: https://youtube.com/watch?v=VIDEO_LINK_HERE
+Video: https://youtu.be/CAxQLIC8hV0
 
 ## Paper
 
